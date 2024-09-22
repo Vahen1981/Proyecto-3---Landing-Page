@@ -1,0 +1,23 @@
+@media (max-width: 600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #logo{
+        width: 50vw;
+        align-self: flex-end;
+        margin-right: 2vw;
+    }
+
+    nav{
+        justify-content: center;
+    }
+
+    ul{
+        width: 95vw;
+        justify-content: space-around;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+}
