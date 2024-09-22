@@ -69,4 +69,55 @@ li{
 li a {
     text-decoration: none;
     color: white;
-  }
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+#main-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 60vh;
+}
+
+#main-left h1{
+    width: 80%;
+}
+
+#main-left p{
+    width: 80%;
+}
+
+#input-caja{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 10%;
+}
+
+#input-caja input{
+    width: 70%;
+}
+
+#main-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 50%;
+}
+
+#main-right img{
+    width: 90%;
+    height: auto;
+    border: solid 2px #162FF0;
+    border-radius: 10px;
+}
