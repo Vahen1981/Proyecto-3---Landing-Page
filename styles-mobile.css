@@ -20,4 +20,39 @@
         margin-top: 1vh;
         margin-bottom: 1vh;
     }
+
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main-left{
+        width: 90%;
+    }
+    
+    #main-left h1{
+        width: 100%;
+    }
+    
+    #main-left p{
+        width: 100%;
+    }
+
+    #main-right{
+        width: 90%;
+    }
+    
+    #main-right img{
+        width: 100%;
+    }
+
+    #productos-down{
+        flex-direction: column;
+    }
+    
+    .contenedor-producto{
+        margin: 2vh;
+        padding: 2vh;
+    }
+   
 }
