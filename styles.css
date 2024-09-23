@@ -151,7 +151,7 @@ main{
 
 .contenedor-producto img{
     width: 100%;
-    height: 30vh;
+    height: auto;
 }
 
 #demo{
@@ -162,9 +162,70 @@ main{
     padding: 3vh 0 3vh 0;
 }
 
+#demo h2{
+    width: 90%;
+    text-align: center;
+}
+
 #demo video{
     aspect-ratio: 16/9;
-    width: 90%;
+    width: 60%;
     border: solid 1px black;
     margin-bottom: 3vh;
 }
+
+footer {
+    background-color: #1673F0;
+    color: white;
+    font-weight: lighter;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2vh;
+}
+
+.footer-contacto{ 
+    flex: 1;
+    text-align: left;
+    width: 50%;
+}
+
+.footer-redes {
+    text-align: right;
+    width: 50%;
+}
+
+.footer-contacto h3, .footer-redes h3 {
+    font-size: 1rem;
+}
+
+.footer-contacto p {
+    font-size: 0.8rem;
+}
+
+.footer-redes a {
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+.footer-redes img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.footer-redes a:hover img {
+    transform: scale(1.1); 
+}
+
+.footer-final {
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 1px solid #555;
+    padding: 2vh 0 2vh 0;
+
+}
+

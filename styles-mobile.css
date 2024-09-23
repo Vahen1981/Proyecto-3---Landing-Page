@@ -54,5 +54,19 @@
         margin: 2vh;
         padding: 2vh;
     }
+
+    #demo video{
+        width: 90%;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-redes {
+        display: flex;
+        flex-direction: column;
+    }
    
 }
