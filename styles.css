@@ -134,9 +134,8 @@ main{
 }
 
 #productos-down{
-    display: flex;
-    flex-direction: row;
-    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .contenedor-producto{
@@ -145,6 +144,7 @@ main{
     align-items: center;
     border: solid 1px black;
     border-radius: 20px;
+    background-color: #0AD1F5;
     margin: 1vw;
     padding: 1vw;
 }
@@ -158,7 +158,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #0AF5CB;
+    background-color: #0AD1F5;
     padding: 3vh 0 3vh 0;
 }
 
@@ -167,7 +167,7 @@ main{
     text-align: center;
 }
 
-#demo video{
+#demo iframe{
     aspect-ratio: 16/9;
     width: 60%;
     border: solid 1px black;

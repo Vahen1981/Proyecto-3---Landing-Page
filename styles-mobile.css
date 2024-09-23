@@ -47,7 +47,8 @@
     }
 
     #productos-down{
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
     }
     
     .contenedor-producto{
@@ -55,7 +56,7 @@
         padding: 2vh;
     }
 
-    #demo video{
+    #demo iframe{
         width: 90%;
     }
 
