@@ -8,7 +8,6 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #6F8F72;
 }
 
 h1 {
@@ -25,8 +24,14 @@ p {
 
 body{
     width: 100vw;
+    height: 100vh;
     max-width: 1200px;
     margin: 0;
+    background-image: url('src/images/araucaria.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 
@@ -76,7 +81,7 @@ main{
     display: flex;
     flex-direction: row;
     padding: 3vh 0 3vh 0;
-    background-color: rgb(143, 214, 148);
+    background-color: rgba(143, 214, 148, 0.705);
 }
 
 #main-left{
@@ -131,7 +136,7 @@ main{
     flex-direction: column;
     align-items: center;
     padding: 3vh 0 3vh 0;
-    background-color: #7DBA84;
+    background-color: #7dba84b0;
 }
 
 #productos-down{
@@ -146,7 +151,7 @@ main{
     border-radius: 20px;
     margin: 1vw;
     padding: 1vw;
-    background-color: #6F8F72;
+    background-color: #6f8f72a6;
 }
 
 .contenedor-producto img{
@@ -159,7 +164,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #8FD694;
+    background-color: #8fd694d2;
     padding: 3vh 0 3vh 0;
 }
 
@@ -173,6 +178,53 @@ main{
     width: 60%;
     border: solid 1px black;
     margin-bottom: 3vh;
+}
+
+#contacto{
+    background-color: #54915ace;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 20px;
+}
+
+input{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+label{
+    align-self: flex-start;
+    margin-left: 5%;
+}
+
+textarea{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.boton{
+    width: 100px;
+    margin-bottom: 0;
+}
+
+#contacto-derecha{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#contacto-derecha img{
+    width: 50%;
+    align-self: center;
+    transform: rotate(5deg);
 }
 
 footer {
@@ -216,6 +268,7 @@ footer {
     width: 30px;
     height: 30px;
     transition: transform 0.3s ease;
+    margin-left: 10px;
 }
 
 .footer-redes a:hover img {
