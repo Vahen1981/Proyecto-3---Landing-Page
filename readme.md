@@ -4,6 +4,7 @@ _ToquiControl_ es un proyecto personal en el que estoy trabajando, y aprovechand
 
 Esta página incluye:
 
+- Archivo de prototipado, el cual a medida se avanzó en el proyecto fue sufriendo modificaciones
 - Código HTML.
 - Hoja de estilos CSS (`styles.css`).
 - Archivo adicional CSS (`styles-mobile.css`) para los estilos responsivos mediante media queries.
